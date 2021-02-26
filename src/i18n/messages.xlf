@@ -24,7 +24,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="unicId" datatype="html">
-        <source>Test changed 111111CCCCC</source>
+        <source>Test changed 111111CCCCCAAAAAAAAAAAAAAAAA</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">22</context>
