@@ -1,4 +1,4 @@
-  <code>
+
   phraseapp:
     project_id: 1d6ffe6b19e43611919023c4f407552a
     file_format: yml
@@ -12,4 +12,4 @@
         - file: ./src/i18n/;.xlf
           params:
             file_format: xlf
-    </code>
+
