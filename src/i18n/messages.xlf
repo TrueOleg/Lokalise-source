@@ -23,6 +23,13 @@
           <context context-type="linenumber">21</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="5021952940164892836" datatype="html">
+        <source>Test CCCCC</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="welcome" datatype="html">
         <source>Hello everyone!</source>
         <context-group purpose="location">
