@@ -1,7 +1,7 @@
   <code>
   phraseapp:
     project_id: 1d6ffe6b19e43611919023c4f407552a
-    file_format: xlf
+    file_format: yml
     push:
       sources:
         - file: ./src/i18n/.xlf
