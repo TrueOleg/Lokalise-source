@@ -13,7 +13,7 @@
   },
   "husky": {
     "hooks": {
-        "pre-commit": "./test.js"
+        "pre-commit": "npm run pre-commit"
       }
   },
   "private": true,
