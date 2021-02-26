@@ -18,7 +18,8 @@ export class AppComponent {
   company = "Lokalise"
   created_by = $localize`Created by ${this.company}`
   test_AAAAAA = $localize`Test AAAA`;
-  test_BBBBB = $localize`Test BBBB`
+  test_BBBBB = $localize`Test BBBB`;
+  test_CCCC = $localize`Test CCCCC`;
 
   male() { this.genderCode = 0; }
   female() { this.genderCode = 1; }
