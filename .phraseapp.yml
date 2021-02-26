@@ -9,7 +9,7 @@
             file_format: xlf
     pull:
       targets:
-        - file: ./src/i18n/messages.xlf
+        - file: ./src/i18n/;.xlf
           params:
             file_format: xlf
-  </code>
+    </code>
