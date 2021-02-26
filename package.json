@@ -8,13 +8,14 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ngcc"
+    "postinstall": "ngcc",
+    "pre-commit": "ng extract-i18n --output-path src/i18n --out-file en-US.xlf && git add ."
   },
   "husky": {
     "hooks": {
-    "pre-commit": "ng extract-i18n --output-path src/i18n --out-file en-US.xlf && git add ."
-    }
-},
+      "pre-commit": "npm run pre-commit"
+      }
+  },
   "private": true,
   "dependencies": {
     "@angular-devkit/schematics": "^11.0.7",
