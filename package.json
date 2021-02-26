@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "postinstall": "ngcc",
-    "pre-commit": "ng extract-i18n --output-path src/i18n --out-file en-US.xlf && git add ."
+    "pre-commit": "ng extract-i18n --output-path src/i18n --out-file messages.xlf && git add ."
   },
   "husky": {
     "hooks": {
