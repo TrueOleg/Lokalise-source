@@ -20,6 +20,7 @@ export class AppComponent {
   test_AAAAAA = $localize`Test AAAA`;
   test_BBBBB = $localize`Test BBBB`;
   test_CCCC = $localize`:@@unicId:Test changed 111111CCCCCAAAAAAAAAAAAAAAAA`;
+  test_DDDD = $localize`:@@unicIdDDDDDD:Test DDDDDD`;
 
   male() { this.genderCode = 0; }
   female() { this.genderCode = 1; }
