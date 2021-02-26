@@ -4,12 +4,12 @@
     file_format: yml
     push:
       sources:
-        - file: ./src/i18n/.xlf
+        - file: ./src/i18n/<locale_name>.xlf
           params:
             file_format: xlf
     pull:
       targets:
-        - file: ./src/i18n/;.xlf
+        - file: ./src/i18n/<locale_name>.xlf
           params:
             file_format: xlf
 
